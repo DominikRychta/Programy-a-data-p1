@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(255, 255, 255);
+    background-image: url('../img/background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    color: rgb(00, 255, 0);
+    font-size: 24px;
+}
+main {
+    background-color: #333333;
+    width: 1200px;
+    margin: 50px auto;  
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container div {
+    width: 33%;
+    background-color: #334457;
+    padding: 20px;
+    margin: 10px;
+    flex: 25%
+}
+@media screen and (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    
+}
