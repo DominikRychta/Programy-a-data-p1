@@ -1,42 +1,67 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color : rgb(255, 255, 255);
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    color: rgb(255, 255, 255);
     background-image: url('../img/background.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
+
 header {
-    background-color: #333333;
+    background-color: rgba(51, 51, 51, 0.9);
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 header h1 {
-    color: rgb(00, 255, 0);
-    font-size: 24px;
+    color: rgb(0, 255, 0);
+    font-size: 36px;
+    margin: 0;
 }
+
 main {
-    background-color: #333333;
-    width: 1200px;
-    margin: 50px auto;  
+    background-color: rgba(51, 51, 51, 0.9);
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 .flex-container div {
-    width: 33%;
+    width: 30%;
     background-color: #334457;
     padding: 20px;
     margin: 10px;
-    flex: 25%
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.flex-container div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 @media screen and (max-width: 1200px) {
     main {
         width: 90%;
     }
     .flex-container {
         flex-direction: column;
+        align-items: center;
     }
-    
+    .flex-container div {
+        width: 90%;
+    }
 }
