@@ -3,17 +3,14 @@ a {
     text-decoration: none;
 }
 
-
 a:hover {
     color: #cc00ff; 
     text-decoration: underline; 
 }
 
-
 a:active {
     color:  #cc00ff;
 }
-
 
 a:visited {
     color: #096d00;
@@ -51,11 +48,12 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-size: 20px;
-h2 {
-    color: rgb(0, 255, 0);
-    font-size: 30px;
-    margin: 0;
-    padding: 10px 0;}
+    h2 {
+        color: rgb(0, 255, 0);
+        font-size: 30px;
+        margin: 0;
+        padding: 10px 0;
+    }
 }
 
 .flex-container {
@@ -66,7 +64,7 @@ h2 {
 
 .flex-container div {
     width: 30%;
-    background-color: #334457;
+    background-color: #243549;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
