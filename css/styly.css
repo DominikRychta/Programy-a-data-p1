@@ -57,7 +57,7 @@ header {
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgba(0, 255, 0, 0.466);
     color: white;
 }
 
