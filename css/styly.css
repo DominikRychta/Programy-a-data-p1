@@ -1,3 +1,23 @@
+a {
+    color: rgb(0, 185, 15);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #cc00ff; 
+    text-decoration: underline; 
+}
+
+
+a:active {
+    color:  #cc00ff;
+}
+
+
+a:visited {
+    color: #1c2530;
+}
 body {
     background-color: #1a1a1a;
     font-family: 'Arial', 'Helvetica', sans-serif;
